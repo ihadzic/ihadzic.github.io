@@ -23,7 +23,6 @@ defaults:
 
 future: true
 plugins:
-  - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
 
