@@ -24,3 +24,8 @@ other things.
 
 What is a public page without a mandatory disclaimer? Opinions stated
 here are my own and not of my employer. I speak for my self and only myself.
+
+## Acknowledgment
+
+These pages are based on [Hacker Blog](https://github.com/tocttou/hacker-blog)
+Jekyll theme.
