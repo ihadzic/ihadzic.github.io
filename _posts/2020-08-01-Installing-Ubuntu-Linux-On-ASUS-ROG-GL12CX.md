@@ -242,3 +242,24 @@ The update process will tell you that one package is on hold, which is the
 Intel microcode. After the update, reboot the machine and check that
 everything is working. You can then enable the automatic update
 if you desire so.
+
+## Concluding Remarks
+
+After almost giving up and returning the machine to the vendor,
+I got it to work. I should say that it's a really nice machine.
+Robotics simulations are like games. They simulate the physics
+of the robot interacting with the environment, they animate
+the world, and robotics control software does a lot of non-trivial
+calculations in real time.
+
+Gazebo has a metric called real-time factor that indicates the
+performance of the simulation. It is the ratio between one second
+of simulated time and the actual time it takes to simulate it.
+The real-time factor of 1.0 means that the simulation is able
+to keep up with real time.
+
+Before I got this machine I was happy if I can achieve the
+real-time factor between 0.6 and 0.7. Now, I have no problem
+hitting 1.0 and still having plenty of compute capacity to
+do other work while the simulation is running.
+Nice end-result, but a lot of blood spilled over it.
