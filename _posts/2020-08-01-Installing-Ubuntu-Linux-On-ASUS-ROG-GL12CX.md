@@ -19,7 +19,7 @@ I went through to figure out what was going on, I did experiment with 16.04
 and 20.04 observing the same issues. So I believe that what I say below
 applies to other distributions, but I have not personally verified that.
 
-## First boot and BIOS upgrade
+## First Boot and BIOS Upgrade
 
 This machine comes with Windows 10 (what else would one expect on a
 gaming PC). Before starting anything, you want to make sure that the
@@ -94,7 +94,7 @@ You are now ready to boot from Linux live USB stick. Power off
 the machine, put in the USB stick, and power it on. As the machine
 starts to boot, press `<F2>` to enter the BIOS and select the
 USB device for a boot device. When the GRUB loader menu shows (you
-may have to press `<SHIFT>` key to make it show, press `e` (for edit)
+may have to press `<SHIFT>` key to make it show, press `<e>` (for edit)
 while the menu selector is pointing to the boot line. Look for the
 kernel boot line. It will look something like this (not exactly but
 you will recognize which line I am talking about):
